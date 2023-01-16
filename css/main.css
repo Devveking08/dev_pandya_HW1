@@ -1,0 +1,97 @@
+/* We typically use one CSS file, named main.css to control all of our pages */
+
+/* this is a class we use to hide headings in our design */
+.hidden {
+    display: none;
+}
+
+body {
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+#container {
+    width: 428px;
+    margin: 20px auto;
+    border: solid 1px darkgray;
+    border-radius: 15px;
+    background-color: white;
+}
+
+h2 {    
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 4px;
+    color: Black;
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    margin-top: 8px;
+    float: left;
+    display: inline;
+}
+
+ul li img {
+        height:45px;
+        width:45px;
+        margin-top: auto;
+        margin-left: auto;
+}
+
+
+
+
+
+
+h1 {
+font-size: 42px;
+margin-bottom: 30px;
+margin-top: 35px;
+
+}
+
+h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 21px;
+    line-height: 28px;
+    color: #343434;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4.5, 85px);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
